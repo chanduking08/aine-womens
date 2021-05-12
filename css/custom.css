@@ -1,0 +1,65 @@
+.header {
+	background-color: #0A2642;
+  border-bottom: solid 2px #7f66ff;
+  top: 0;
+  transition: all 400ms ease;
+  z-index: 100;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+	bottom: 40%;
+}
+.scrolled.header {
+	padding-bottom: 4px !important;
+	padding-top: 4px !important; 
+}
+.intro-section, .terms-section {
+	background-color: #F5F8FB;
+}
+.footer-section {
+	background-color: #221831;
+}
+.footer-section p {
+  color: #a1acb7 !important;
+}
+.name-section h1 {
+	color: #0a2642;
+}
+.name-section h3 {
+	color: #68727c;
+	font-size: 18px;
+}
+.name-section {
+	background: #f5f8fb;
+}
+.text-small {
+	color: #a5a5a5;
+}
+.nav-tabs, .nav-link {
+	border: none !important;
+}
+.nav-tabs .nav-link {
+	background: #f5f8fb;
+	border-radius: 0;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+	background: #7F66FF;
+	color: #fff;
+}
+.overflow-wrap {
+	overflow-wrap: break-word;
+}
+.line-height-large {
+	line-height: 2.2;
+}
